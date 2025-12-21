@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-title" content="MyCollection">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="icon" type="image/png" href="icon.png">
     <title>MyCollection - Gestionnaire de Bibliothèque</title>
     
     <!-- React & ReactDOM -->
@@ -63,7 +66,7 @@
         };
 
         const INITIAL_SETTINGS = {
-            omdbApiKey: "" // Clé pour l'API Films
+            tmdbApiKey: "" // Clé pour l'API Films (TMDB)
         };
 
         // Configuration UI des catégories
@@ -75,7 +78,7 @@
                 iconClass: "ph-film-strip",
                 color: "bg-blue-100 text-blue-700",
                 btnColor: "bg-blue-600 hover:bg-blue-700",
-                allowScan: false, // OMDb ne supporte pas bien l'UPC nativement
+                allowScan: false, // TMDB ne supporte pas le scan code-barres nativement en gratuit
                 fields: [
                     { key: "directors", label: "Réalisateurs", type: "array" },
                     { key: "producers", label: "Producteurs", type: "array" },
@@ -124,16 +127,17 @@
 
         <h4 class="font-bold mt-4 mb-1">🔍 Recherche Automatique</h4>
         <ul class="list-disc list-inside text-sm space-y-1 text-slate-700">
-            <li><strong>Livres :</strong> Utilise OpenLibrary (Gratuit, automatique).</li>
+            <li><strong>Livres :</strong> Utilise OpenLibrary + Google Books (Automatique).</li>
             <li><strong>Musiques :</strong> Utilise MusicBrainz (Gratuit, automatique).</li>
-            <li><strong>Films :</strong> Utilise OMDb API. <span class="text-red-500 font-bold">Nécessite une clé API.</span></li>
+            <li><strong>Films :</strong> Utilise <a href="https://www.themoviedb.org/" target="_blank" class="underline">TMDB</a>. <span class="text-red-500 font-bold">Nécessite une clé API.</span></li>
         </ul>
         <p class="text-xs mt-2 bg-yellow-50 p-2 rounded text-yellow-800 border border-yellow-200">
-            Pour les films, obtenez une clé gratuite sur <a href="https://www.omdbapi.com/apikey.aspx" target="_blank" class="underline font-bold">omdbapi.com</a> et entrez-la via le bouton <i class="ph-bold ph-gear"></i> Réglages.
+            Pour les films, créez un compte sur <a href="https://www.themoviedb.org/settings/api" target="_blank" class="underline font-bold">themoviedb.org</a>, générez une clé API (v3) et entrez-la via le bouton <i class="ph-bold ph-gear"></i> Réglages.
         </p>
 
-        <h4 class="font-bold mt-4 mb-1">💾 Sauvegarde</h4>
-        <p class="text-sm text-slate-700">Vos données sont stockées dans votre navigateur (LocalStorage). Utilisez le bouton <strong>Exporter</strong> pour faire une sauvegarde de sécurité JSON.</p>
+        <h4 class="font-bold mt-4 mb-1">💾 Sauvegarde & Synchro</h4>
+        <p class="text-sm text-slate-700">Vos données sont stockées dans votre navigateur (LocalStorage). 
+        Si un fichier <code>collection.json</code> est présent dans le dossier, il sera lu au démarrage pour enrichir la base.</p>
         `;
 
         /**
@@ -143,7 +147,7 @@
          */
 
         const apiService = {
-            // Recherche par texte (existant)
+            // Recherche par texte
             search: async (category, query, settings) => {
                 // 1. LIVRES (OpenLibrary)
                 if (category === 'livres') {
@@ -186,60 +190,94 @@
                     } catch (e) { console.error("Erreur MusicBrainz", e); return []; }
                 }
 
-                // 3. FILMS (OMDb)
+                // 3. FILMS (TMDB - The Movie Database)
                 if (category === 'films') {
-                    const apiKey = settings.omdbApiKey;
+                    const apiKey = settings.tmdbApiKey;
                     if (!apiKey) throw new Error("KEY_MISSING");
+                    
                     try {
-                        const response = await fetch(`https://www.omdbapi.com/?apikey=${apiKey}&s=${encodeURIComponent(query)}&type=movie`);
+                        // Recherche TMDB en français
+                        const response = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${encodeURIComponent(query)}&language=fr-FR&page=1`);
                         const data = await response.json();
-                        if (data.Response === "False") return [];
-                        return data.Search.map(movie => ({
-                            title: movie.Title,
-                            release_year: movie.Year,
-                            directors: ["Chargement..."],
+
+                        if (!data.results) return [];
+
+                        return data.results.slice(0, 10).map(movie => ({
+                            title: movie.title,
+                            release_year: movie.release_date ? movie.release_date.substring(0, 4) : "Inconnu",
+                            // TMDB search ne donne pas le réal, on laisse vide pour l'instant
+                            directors: [], 
                             producers: [],
                             box_office: "",
-                            poster_url: movie.Poster !== "N/A" ? movie.Poster : null,
-                            synopsis: "Importé via OMDb.",
-                            imdbID: movie.imdbID
+                            poster_url: movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : null,
+                            synopsis: movie.overview || "Pas de synopsis disponible.",
+                            tmdbID: movie.id
                         }));
-                    } catch (e) { console.error("Erreur OMDb", e); return []; }
+                    } catch (e) {
+                        console.error("Erreur TMDB", e);
+                        // Si erreur 401/404 souvent c'est la clé
+                        return [];
+                    }
                 }
                 return [];
             },
 
-            // NOUVEAU: Recherche par Code Barre
+            // NOUVEAU: Recherche par Code Barre (Amélioré avec Fallback)
             getByBarcode: async (category, code) => {
-                // Livres (ISBN) via OpenLibrary
+                // LIVRES (ISBN) - Tentative OpenLibrary puis Fallback Google Books
                 if (category === 'livres') {
-                    const response = await fetch(`https://openlibrary.org/api/books?bibkeys=ISBN:${code}&format=json&jscmd=data`);
-                    const data = await response.json();
-                    const bookKey = `ISBN:${code}`;
-                    if (!data[bookKey]) throw new Error("Not Found");
-                    
-                    const book = data[bookKey];
-                    return {
-                        title: book.title,
-                        release_year: book.publish_date ? book.publish_date.slice(-4) : new Date().getFullYear(),
-                        authors: book.authors ? book.authors.map(a => a.name) : ["Inconnu"],
-                        publisher: book.publishers ? book.publishers[0].name : "Inconnu",
-                        cover_url: book.cover ? book.cover.medium : null,
-                        summary: `Importé via scan (ISBN: ${code}). Pages: ${book.number_of_pages || '?'}.`,
-                        format: "roman"
-                    };
+                    try {
+                        // 1. Essai OpenLibrary
+                        const response = await fetch(`https://openlibrary.org/api/books?bibkeys=ISBN:${code}&format=json&jscmd=data`);
+                        const data = await response.json();
+                        const bookKey = `ISBN:${code}`;
+                        
+                        if (data[bookKey]) {
+                            const book = data[bookKey];
+                            return {
+                                title: book.title,
+                                release_year: book.publish_date ? book.publish_date.slice(-4) : new Date().getFullYear(),
+                                authors: book.authors ? book.authors.map(a => a.name) : ["Inconnu"],
+                                publisher: book.publishers ? book.publishers[0].name : "Inconnu",
+                                cover_url: book.cover ? book.cover.medium : null,
+                                summary: `Importé via OpenLibrary (ISBN: ${code}). Pages: ${book.number_of_pages || '?'}.`,
+                                format: "roman"
+                            };
+                        }
+                    } catch (e) { console.log("OpenLibrary fail, trying fallback..."); }
+
+                    // 2. Fallback Google Books (Public API)
+                    try {
+                        const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${code}`);
+                        const data = await response.json();
+                        
+                        if (data.totalItems > 0 && data.items[0]) {
+                            const info = data.items[0].volumeInfo;
+                            return {
+                                title: info.title,
+                                release_year: info.publishedDate ? info.publishedDate.substring(0, 4) : "Inconnu",
+                                authors: info.authors || ["Inconnu"],
+                                publisher: info.publisher || "Inconnu",
+                                cover_url: info.imageLinks ? (info.imageLinks.thumbnail || info.imageLinks.smallThumbnail).replace('http:', 'https:') : null,
+                                summary: info.description ? info.description.substring(0, 500) + "..." : `Importé via Google Books (ISBN: ${code}).`,
+                                format: "roman"
+                            };
+                        }
+                    } catch (e) { console.error("Google Books fail", e); }
+
+                    throw new Error("Livre non trouvé sur les bases de données disponibles.");
                 }
 
-                // Musique (UPC/EAN) via MusicBrainz
+                // MUSIQUE (UPC/EAN) - MusicBrainz
                 if (category === 'musiques') {
                     const response = await fetch(`https://musicbrainz.org/ws/2/release/?query=barcode:${code}&fmt=json`, {
                         headers: { 'User-Agent': 'MyCollectionApp/1.0 ( contact@example.com )' }
                     });
                     const data = await response.json();
-                    if (!data.releases || data.releases.length === 0) throw new Error("Not Found");
+                    if (!data.releases || data.releases.length === 0) throw new Error("Album non trouvé sur MusicBrainz.");
                     
-                    const album = data.releases[0]; // Prend le premier résultat
-                    // Essayer de récupérer le release-group pour l'image
+                    const album = data.releases[0];
+                    
                     let coverUrl = null;
                     if (album['release-group']) {
                          coverUrl = `https://coverartarchive.org/release-group/${album['release-group'].id}/front`;
@@ -350,7 +388,12 @@
         const BarcodeScanner = ({ onScanSuccess, onError }) => {
             useEffect(() => {
                 const scanner = new Html5Qrcode("reader");
-                const config = { fps: 10, qrbox: { width: 250, height: 150 }, aspectRatio: 1.0 };
+                const config = { 
+                    fps: 15,
+                    qrbox: { width: 280, height: 150 }, 
+                    aspectRatio: 1.0,
+                    formatsToSupport: [ 0, 1, 7, 8, 13, 14 ]
+                };
                 
                 scanner.start(
                     { facingMode: "environment" }, 
@@ -360,9 +403,7 @@
                             onScanSuccess(decodedText);
                         }).catch(err => console.error("Stop failed", err));
                     },
-                    (errorMessage) => {
-                        // Scan error, ignore usually
-                    }
+                    (errorMessage) => { }
                 ).catch(err => {
                     onError("Erreur caméra: " + err);
                 });
@@ -377,7 +418,7 @@
             return (
                 <div className="w-full flex flex-col items-center">
                     <div id="reader" className="w-full h-64 bg-black rounded-lg overflow-hidden relative"></div>
-                    <p className="text-sm text-slate-500 mt-2 text-center">Placez le code-barres dans le cadre.</p>
+                    <p className="text-sm text-slate-500 mt-2 text-center">Placez le code-barres (EAN/ISBN) dans le cadre.</p>
                 </div>
             );
         };
@@ -390,8 +431,16 @@
 
         function App() {
             // -- STATES --
-            const [store, setStore] = useState(INITIAL_STORE);
-            const [settings, setSettings] = useState(INITIAL_SETTINGS);
+            const [store, setStore] = useState(() => {
+                const saved = localStorage.getItem(STORAGE_KEY);
+                return saved ? JSON.parse(saved) : INITIAL_STORE;
+            });
+
+            const [settings, setSettings] = useState(() => {
+                const saved = localStorage.getItem(SETTINGS_KEY);
+                return saved ? JSON.parse(saved) : INITIAL_SETTINGS;
+            });
+
             const [currentView, setCurrentView] = useState('home');
             const [notification, setNotification] = useState(null);
             
@@ -402,19 +451,13 @@
             const [localFilter, setLocalFilter] = useState("");
 
             // Modals
-            const [modalMode, setModalMode] = useState(null); // 'search_select', 'edit', 'view', 'help', 'settings', 'scan'
+            const [modalMode, setModalMode] = useState(null);
             const [selectedItem, setSelectedItem] = useState(null);
             const [formData, setFormData] = useState({});
 
             // -- EFFECTS --
-            useEffect(() => {
-                const savedData = localStorage.getItem(STORAGE_KEY);
-                if (savedData) setStore(JSON.parse(savedData));
-                
-                const savedSettings = localStorage.getItem(SETTINGS_KEY);
-                if (savedSettings) setSettings(JSON.parse(savedSettings));
-            }, []);
 
+            // 1. Sauvegarde Auto LocalStorage
             useEffect(() => {
                 localStorage.setItem(STORAGE_KEY, JSON.stringify(store));
             }, [store]);
@@ -422,6 +465,79 @@
             useEffect(() => {
                 localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
             }, [settings]);
+
+            // 2. Chargement "collection.json" externe (BDD Externe)
+            useEffect(() => {
+                const syncExternalDB = async () => {
+                    try {
+                        const response = await fetch('./collection.json');
+                        if (!response.ok) {
+                            // Pas de fichier, ou erreur 404, on ignore silencieusement
+                            return; 
+                        }
+                        const externalData = await response.json();
+                        
+                        if (!externalData || !externalData.categories) return;
+
+                        let itemsAddedCount = 0;
+
+                        setStore(currentStore => {
+                            const newCategories = { ...currentStore.categories };
+                            let hasChanges = false;
+
+                            ['films', 'livres', 'musiques'].forEach(cat => {
+                                const externalList = externalData.categories[cat];
+                                if (!externalList || !Array.isArray(externalList)) return;
+
+                                externalList.forEach(extItem => {
+                                    // Vérification Doublon (Titre + Année)
+                                    // On nettoie les chaînes pour comparer
+                                    const extTitle = (extItem.data?.title || "").toLowerCase().trim();
+                                    const extYear = extItem.data?.release_year;
+
+                                    const exists = newCategories[cat].find(localItem => {
+                                        const locTitle = (localItem.data?.title || "").toLowerCase().trim();
+                                        const locYear = localItem.data?.release_year;
+                                        return locTitle === extTitle && locYear == extYear;
+                                    });
+
+                                    if (!exists) {
+                                        // On ajoute l'élément
+                                        // On s'assure qu'il a un ID, sinon on en génère un
+                                        const newItem = { ...extItem };
+                                        if (!newItem.id) {
+                                            newItem.id = generateId(cat);
+                                        }
+                                        // On force le type
+                                        newItem.type = cat; 
+                                        if(!newItem.data) newItem.data = {};
+                                        
+                                        newCategories[cat] = [newItem, ...newCategories[cat]];
+                                        hasChanges = true;
+                                        itemsAddedCount++;
+                                    }
+                                });
+                            });
+
+                            if (hasChanges) {
+                                return { ...currentStore, categories: newCategories };
+                            }
+                            return currentStore;
+                        });
+
+                        if (itemsAddedCount > 0) {
+                            showToast(`${itemsAddedCount} élément(s) importé(s) depuis collection.json`, 'info');
+                        }
+
+                    } catch (err) {
+                        console.warn("Info: Impossible de charger collection.json (CORS ou inexistant).", err);
+                    }
+                };
+
+                // Petit délai pour laisser l'UI s'afficher
+                setTimeout(() => syncExternalDB(), 1000);
+            }, []); // S'exécute une seule fois au montage
+
 
             // -- HELPERS --
             const showToast = (msg, type = 'success') => {
@@ -493,12 +609,12 @@
                         setModalMode('search_select');
                     } else {
                         showToast("Aucun résultat trouvé", "info");
-                        setFormData({ data: { title: searchQuery } }); // Prépare manuel
+                        setFormData({ data: { title: searchQuery } });
                         setModalMode('edit');
                     }
                 } catch (err) {
                     if (err.message === "KEY_MISSING") {
-                        showToast("Clé API OMDb manquante (voir Réglages)", "error");
+                        showToast("Clé API TMDB manquante (voir Réglages)", "error");
                         setModalMode('settings');
                     } else {
                         showToast("Erreur lors de la recherche", "error");
@@ -510,15 +626,14 @@
 
             // -- SCANNER LOGIC --
             const handleScanSuccess = async (code) => {
-                setModalMode(null); // Close scan modal
-                showToast("Code détecté, recherche...", "info");
+                setModalMode(null);
+                showToast(`Code ${code} détecté, recherche...`, "info");
                 try {
                     const data = await apiService.getByBarcode(currentView, code);
                     setFormData({ data: data });
                     setModalMode('edit');
                 } catch (e) {
-                    showToast("Code non trouvé ou erreur API", "error");
-                    console.error(e);
+                    showToast(e.message || "Non trouvé", "error");
                 }
             };
 
@@ -564,22 +679,18 @@
             const currentConfig = CATEGORY_CONFIG[currentView];
             const currentList = store.categories[currentView] || [];
             
-            // --- LOGIQUE DE FILTRE AMELIOREE ---
             const filteredList = currentList.filter(item => {
                 if (!localFilter) return true;
                 const query = localFilter.toLowerCase();
                 const d = item.data;
                 
-                // Recherche générique (Titre, Année)
                 let match = (d.title && d.title.toLowerCase().includes(query)) || 
                             (d.release_year && d.release_year.toString().includes(query));
 
-                // Recherche spécifique : Livres (Auteurs)
                 if (currentView === 'livres' && d.authors && Array.isArray(d.authors)) {
                     match = match || d.authors.some(a => a.toLowerCase().includes(query));
                 }
 
-                // Recherche spécifique : Musiques (Artistes)
                 if (currentView === 'musiques' && d.artists && Array.isArray(d.artists)) {
                     match = match || d.artists.some(a => a.toLowerCase().includes(query));
                 }
@@ -589,7 +700,7 @@
 
             const totalItems = Object.values(store.categories).reduce((acc, cat) => acc + cat.length, 0);
 
-            // -- TOAST COMPONENT (Rendered inline) --
+            // -- TOAST COMPONENT --
             const Toast = () => {
                 if (!notification) return null;
                 const bg = notification.type === 'error' ? 'bg-red-500' : (notification.type === 'info' ? 'bg-blue-500' : 'bg-slate-800');
@@ -656,7 +767,7 @@
                             </div>
                         </main>
 
-                        {/* MODALE REGLAGES */}
+                        {/* MODALE REGLAGES (Updated for TMDB) */}
                         <Modal isOpen={modalMode === 'settings'} onClose={() => setModalMode(null)} title="Réglages">
                             <div className="space-y-4">
                                 <div className="bg-blue-50 p-4 rounded-lg text-blue-800 text-sm flex gap-3">
@@ -664,13 +775,13 @@
                                     <p>Les clés API sont stockées uniquement dans votre navigateur (LocalStorage).</p>
                                 </div>
                                 <Input 
-                                    label="Clé API OMDb (Films)" 
-                                    placeholder="Ex: a1b2c3d4" 
-                                    value={settings.omdbApiKey} 
-                                    onChange={e => setSettings({...settings, omdbApiKey: e.target.value})} 
+                                    label="Clé API TMDB (Films)" 
+                                    placeholder="Ex: eyJhbGciOiJIUzI1Ni..." 
+                                    value={settings.tmdbApiKey} 
+                                    onChange={e => setSettings({...settings, tmdbApiKey: e.target.value})} 
                                 />
                                 <div className="text-xs text-slate-500">
-                                    Requise pour la recherche automatique de films. Obtenir une clé gratuite : <a href="https://www.omdbapi.com/apikey.aspx" target="_blank" className="underline text-indigo-600">omdbapi.com</a>
+                                    Requise pour la recherche de films. Créez un compte et obtenez une clé (v3 auth) sur : <a href="https://www.themoviedb.org/settings/api" target="_blank" className="underline text-indigo-600 font-bold">themoviedb.org/settings/api</a>
                                 </div>
                                 <div className="pt-4">
                                     <Button onClick={() => setModalMode(null)} className="w-full">Enregistrer</Button>
@@ -703,7 +814,6 @@
                             <div className="flex gap-2">
                                 <Button variant="ghost" onClick={handleClearCategory} className="text-red-500 hover:bg-red-50 hidden sm:flex"><Icon name="ph-trash" /></Button>
                                 
-                                {/* BOUTON SCANNER (Conditionnel) */}
                                 {currentConfig.allowScan && (
                                     <Button variant="secondary" onClick={() => setModalMode('scan')} title="Scanner Code-Barre">
                                         <Icon name="ph-barcode" size={22} /> <span className="hidden sm:inline">Scanner</span>
@@ -738,7 +848,6 @@
                         <div>
                             <div className="flex justify-between items-center mb-4 gap-4">
                                 <h3 className="text-sm font-bold uppercase tracking-wider text-slate-500 whitespace-nowrap">Ma Liste</h3>
-                                {/* Champ de recherche locale amélioré */}
                                 <div className="relative w-full max-w-xs">
                                     <Icon name="ph-funnel" className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={16} />
                                     <input 
@@ -777,7 +886,7 @@
                         </div>
                     </main>
 
-                    {/* --- MODALES --- */}
+                    {/* MODALES */}
 
                     {/* SELECTEUR RECHERCHE */}
                     <Modal isOpen={modalMode === 'search_select'} onClose={() => setModalMode(null)} title="Résultats Web">
