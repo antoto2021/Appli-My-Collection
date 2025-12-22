@@ -1,0 +1,46 @@
+{
+  "version": "1",
+  "created_at": "2025-12-21T13:49:46.534Z",
+  "categories": {
+    "films": [],
+    "livres": [
+      {
+        "id": "livres_1766325160065_zkp0l",
+        "type": "livres",
+        "created_at": "2025-12-21T13:52:40.065Z",
+        "updated_at": "2025-12-21T13:52:40.065Z",
+        "data": {
+          "title": "Le tour de la France par deux enfants d'aujourd'hui",
+          "release_year": "2018",
+          "authors": [
+            "Pierre Adrian",
+            "Philibert Humm"
+          ],
+          "publisher": "Équateurs",
+          "cover_url": null,
+          "summary": "",
+          "format": "roman"
+        }
+      }
+    ],
+    "musiques": [
+      {
+        "id": "musiques_1766325295277_ii8v3",
+        "type": "musiques",
+        "created_at": "2025-12-21T13:54:55.277Z",
+        "updated_at": "2025-12-21T13:54:55.277Z",
+        "data": {
+          "title": "CIEL",
+          "release_year": "2024",
+          "artists": [
+            "Gims"
+          ],
+          "label": "Single",
+          "sales_or_streams": "Non disponible",
+          "cover_url": "https://coverartarchive.org/release-group/9e6f3fed-8dc4-4aab-a9fc-01c8a3a6d896/front",
+          "mbid": "9e6f3fed-8dc4-4aab-a9fc-01c8a3a6d896"
+        }
+      }
+    ]
+  }
+}
