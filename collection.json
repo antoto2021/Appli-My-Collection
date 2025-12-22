@@ -738,8 +738,277 @@
       }
     ],
     "musiques": [
-      
-
+          [
+    {
+        "title": "Flashé",
+        "release_year": "2018",
+        "artists": "Dinos",
+        "label": "SPKTAQLR / Because Music",
+        "sales_or_streams": "Certifié Or (France)",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Soon As I Get Home",
+        "release_year": "1996",
+        "artists": "2Pac",
+        "label": "Death Row Records",
+        "sales_or_streams": "Classique posthume, millions de streams",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Move",
+        "release_year": "2024",
+        "artists": "Adam Port, Stryv, Keinemusik",
+        "label": "Keinemusik",
+        "sales_or_streams": "Hit viral mondial 2024 (Top Charts)",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Ten Feet Tall",
+        "release_year": "2014",
+        "artists": "Afrojack (feat. Wrabel)",
+        "label": "Island Records",
+        "sales_or_streams": "Platine (International)",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Illuminate",
+        "release_year": "2014",
+        "artists": "Afrojack (feat. Matthew Koma)",
+        "label": "Island Records",
+        "sales_or_streams": "Succès Club / Festival",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Anchor Point",
+        "release_year": "2022",
+        "artists": "Ahmed Spins",
+        "label": "MoBlack Records",
+        "sales_or_streams": "Hit Afro-House Viral",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Right Now (Na Na Na)",
+        "release_year": "2008",
+        "artists": "Akon",
+        "label": "Konvict / Upfront",
+        "sales_or_streams": "Multi-Platine mondial",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "This Is The Life",
+        "release_year": "2007",
+        "artists": "Amy Macdonald",
+        "label": "Vertigo",
+        "sales_or_streams": "Disque de Diamant/Platine (Europe)",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "She Makes Me Go (feat. Sean Paul)",
+        "release_year": "2012",
+        "artists": "Arash",
+        "label": "Warner Music",
+        "sales_or_streams": "Top 10 Charts Europe",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Aria",
+        "release_year": "2023",
+        "artists": "Argy, Omnya",
+        "label": "Afterlife",
+        "sales_or_streams": "Hit Techno Melodic Viral",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "i like the way you kiss me",
+        "release_year": "2024",
+        "artists": "Artemas",
+        "label": "Artemas Music",
+        "sales_or_streams": "100M+ streams (Viral TikTok)",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "X3",
+        "release_year": "2021",
+        "artists": "ASHE 22",
+        "label": "22 / SBG",
+        "sales_or_streams": "Populaire scène Drill FR",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "SUNSET",
+        "release_year": "2021",
+        "artists": "ASHE 22",
+        "label": "22 / SBG",
+        "sales_or_streams": "Populaire scène Drill FR",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Milli",
+        "release_year": "2022",
+        "artists": "ASHE 22",
+        "label": "22 / SBG",
+        "sales_or_streams": "Extrait album 'Riot'",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Bab El Oued",
+        "release_year": "2022",
+        "artists": "ASHE 22",
+        "label": "22 / SBG",
+        "sales_or_streams": "Populaire scène Drill FR",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Línea",
+        "release_year": "2022",
+        "artists": "ASHE 22",
+        "label": "22 / SBG",
+        "sales_or_streams": "Extrait album 'Vingt-Deux'",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Killu",
+        "release_year": "2022",
+        "artists": "ASHE 22",
+        "label": "22 / SBG",
+        "sales_or_streams": "Succès Underground",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Believe In Love",
+        "release_year": "2003",
+        "artists": "ATB",
+        "label": "Kontor Records",
+        "sales_or_streams": "Classique Trance",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "La promesse de l'aube",
+        "release_year": "2022",
+        "artists": "B.B. Jacques",
+        "label": "NBKS / Warner Music France",
+        "sales_or_streams": "Album 'Poésie d'une pulsion'",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Palpite sous l'oeil",
+        "release_year": "2022",
+        "artists": "B.B. Jacques",
+        "label": "NBKS / Warner Music France",
+        "sales_or_streams": "Succès Critique Rap FR",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "De la lune (feat. Shadi)",
+        "release_year": "2022",
+        "artists": "B.B. Jacques",
+        "label": "NBKS / Warner Music France",
+        "sales_or_streams": "Extrait 'Poésie d'une pulsion'",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Odyssée",
+        "release_year": "2022",
+        "artists": "B.B. Jacques",
+        "label": "NBKS / Warner Music France",
+        "sales_or_streams": "Extrait 'Poésie d'une pulsion'",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Fuck off",
+        "release_year": "2022",
+        "artists": "B.B. Jacques",
+        "label": "NBKS",
+        "sales_or_streams": "Succès suite 'Nouvelle École'",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Donjon",
+        "release_year": "2022",
+        "artists": "B.B. Jacques",
+        "label": "NBKS / Warner Music France",
+        "sales_or_streams": "Titre fort Rap FR 2022",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "2h22",
+        "release_year": "2022",
+        "artists": "B.B. Jacques",
+        "label": "NBKS",
+        "sales_or_streams": "Streamé sur plateformes",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Piano bleu",
+        "release_year": "2022",
+        "artists": "B.B. Jacques",
+        "label": "NBKS / Warner Music France",
+        "sales_or_streams": "Extrait 'Poésie d'une pulsion'",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Lynchburg lemonade",
+        "release_year": "2022",
+        "artists": "B.B. Jacques",
+        "label": "NBKS",
+        "sales_or_streams": "Titre EP",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "PÉTALES",
+        "release_year": "2023",
+        "artists": "B.B. Jacques",
+        "label": "NBKS / Warner Music France",
+        "sales_or_streams": "Album 'New Blues'",
+        "cover_url": "",
+        "mbid": ""
+    },
+    {
+        "title": "Booska Fuck Off",
+        "release_year": "2022",
+        "artists": "B.B. Jacques",
+        "label": "Booska-P / NBKS",
+        "sales_or_streams": "Freestyle Booska-P",
+        "cover_url": "",
+        "mbid": ""
+    },
+      {
+        "title": "Opium",
+        "release_year": "2022",
+        "artists": "B.B. Jacques",
+        "label": "NBKS / Warner Music France",
+        "sales_or_streams": "Extrait 'Poésie d'une pulsion'",
+        "cover_url": "",
+        "mbid": ""
+      }
     ]
   }
 }
