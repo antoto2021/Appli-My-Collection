@@ -1,0 +1,3983 @@
+{
+  "version": "1",
+  "created_at": "2025-12-22T14:00:00.000Z",
+  "categories": {
+    "livres": [
+      {
+        "id": "livres_1766402712678_7qzlm",
+        "type": "livres",
+        "created_at": "2025-12-22T11:25:12.678Z",
+        "updated_at": "2025-12-22T11:25:12.678Z",
+        "data": {
+          "title": "Lucky Luke, tome 35",
+          "release_year": "1994",
+          "authors": ["Morris", "René Goscinny"],
+          "publisher": "Inconnu",
+          "cover_url": "https://covers.openlibrary.org/b/id/1025020-M.jpg",
+          "summary": "",
+          "format": "bd"
+        }
+      },
+      {
+        "id": "livres_1766325160065_zkp0l",
+        "type": "livres",
+        "created_at": "2025-12-21T13:52:40.065Z",
+        "updated_at": "2025-12-21T13:52:40.065Z",
+        "data": {
+          "title": "Le tour de la France par deux enfants d'aujourd'hui",
+          "release_year": "2018",
+          "authors": ["Pierre Adrian", "Philibert Humm"],
+          "publisher": "Équateurs",
+          "cover_url": null,
+          "summary": "",
+          "format": "roman"
+        }
+      }
+    ],
+    "films": [
+      {
+        "id": "films_1766402675501_m5s53",
+        "type": "films",
+        "created_at": "2025-12-22T11:24:35.501Z",
+        "updated_at": "2025-12-22T11:24:43.170Z",
+        "data": {
+          "title": "Avatar",
+          "release_year": "2009",
+          "directors": ["James Cameron"],
+          "producers": ["James Cameron", "Jon Landau"],
+          "box_office": "2 923 710 708€",
+          "synopsis": "Un marine paraplégique, envoyé sur la lune Pandora pour une mission unique, se retrouve tiraillé entre l’obéissance aux ordres et la protection du monde qu’il considère comme son foyer",
+          "poster_url": "https://fr.web.img4.acsta.net/pictures/22/11/02/14/49/4565071.jpg"
+        }
+      },
+      {
+        "id": "films_1766400000001_afra1",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Les Affranchis",
+          "release_year": "1990",
+          "directors": ["Martin Scorsese"],
+          "producers": [],
+          "box_office": "46 800 000$",
+          "synopsis": "L'ascension et la chute d'Henry Hill, un jeune aspirant mafieux qui gravit les échelons de la pègre new-yorkaise aux côtés de ses complices Jimmy Conway et Tommy DeVito.",
+          "poster_url": "https://placehold.co/600x900?text=Les+Affranchis"
+        }
+      },
+      {
+        "id": "films_1766400000002_sila2",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Le Silence des agneaux",
+          "release_year": "1991",
+          "directors": ["Jonathan Demme"],
+          "producers": [],
+          "box_office": "272 700 000$",
+          "synopsis": "Clarice Starling, jeune stagiaire du FBI, doit collaborer avec le Dr Hannibal Lecter pour traquer un autre tueur en série.",
+          "poster_url": "https://placehold.co/600x900?text=Le+Silence+des+agneaux"
+        }
+      },
+      {
+        "id": "films_1766400000003_term3",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Terminator 2 : Le Jugement dernier",
+          "release_year": "1991",
+          "directors": ["James Cameron"],
+          "producers": [],
+          "box_office": "520 800 000$",
+          "synopsis": "Un Terminator reprogrammé est envoyé du futur pour protéger le jeune John Connor contre le T-1000.",
+          "poster_url": "https://placehold.co/600x900?text=Terminator+2"
+        }
+      },
+      {
+        "id": "films_1766400000004_impi4",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Impitoyable",
+          "release_year": "1992",
+          "directors": ["Clint Eastwood"],
+          "producers": [],
+          "box_office": "159 000 000$",
+          "synopsis": "William Munny, ancien hors-la-loi repenti, accepte une dernière mission pour assurer l'avenir de ses enfants.",
+          "poster_url": "https://placehold.co/600x900?text=Impitoyable"
+        }
+      },
+      {
+        "id": "films_1766400000005_rese5",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Reservoir Dogs",
+          "release_year": "1992",
+          "directors": ["Quentin Tarantino"],
+          "producers": [],
+          "box_office": "2 800 000$",
+          "synopsis": "Après un braquage raté, les membres d'un gang se retrouvent dans un entrepôt isolé et la paranoïa s'installe.",
+          "poster_url": "https://placehold.co/600x900?text=Reservoir+Dogs"
+        }
+      },
+      {
+        "id": "films_1766400000006_schi6",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "La Liste de Schindler",
+          "release_year": "1993",
+          "directors": ["Steven Spielberg"],
+          "producers": [],
+          "box_office": "322 000 000$",
+          "synopsis": "L'histoire vraie d'Oskar Schindler, industriel qui a sauvé plus de 1100 Juifs durant l'Holocauste.",
+          "poster_url": "https://placehold.co/600x900?text=La+Liste+de+Schindler"
+        }
+      },
+      {
+        "id": "films_1766400000007_jura7",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Jurassic Park",
+          "release_year": "1993",
+          "directors": ["Steven Spielberg"],
+          "producers": [],
+          "box_office": "1 000 000 000$",
+          "synopsis": "Un parc à thème peuplé de dinosaures clonés tourne au cauchemar après une panne de sécurité.",
+          "poster_url": "https://placehold.co/600x900?text=Jurassic+Park"
+        }
+      },
+      {
+        "id": "films_1766400000008_pulp8",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Pulp Fiction",
+          "release_year": "1994",
+          "directors": ["Quentin Tarantino"],
+          "producers": [],
+          "box_office": "213 900 000$",
+          "synopsis": "Trois histoires entrelacées de criminels à Los Angeles dans une narration non-linéaire culte.",
+          "poster_url": "https://placehold.co/600x900?text=Pulp+Fiction"
+        }
+      },
+      {
+        "id": "films_1766400000009_shaw9",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Les Évadés",
+          "release_year": "1994",
+          "directors": ["Frank Darabont"],
+          "producers": [],
+          "box_office": "58 000 000$",
+          "synopsis": "Andy Dufresne, banquier condamné à tort, se lie d'amitié avec Red au sein de la prison de Shawshank.",
+          "poster_url": "https://placehold.co/600x900?text=Les+Évadés"
+        }
+      },
+      {
+        "id": "films_1766400000010_forr10",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Forrest Gump",
+          "release_year": "1994",
+          "directors": ["Robert Zemeckis"],
+          "producers": [],
+          "box_office": "677 000 000$",
+          "synopsis": "Les décennies marquantes de l'histoire américaine vues à travers le regard innocent de Forrest Gump.",
+          "poster_url": "https://placehold.co/600x900?text=Forrest+Gump"
+        }
+      },
+      {
+        "id": "films_1766400000011_seve11",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Seven",
+          "release_year": "1995",
+          "directors": ["David Fincher"],
+          "producers": [],
+          "box_office": "327 000 000$",
+          "synopsis": "Deux inspecteurs traquent un tueur en série s'inspirant des sept péchés capitaux.",
+          "poster_url": "https://placehold.co/600x900?text=Seven"
+        }
+      },
+      {
+        "id": "films_1766400000012_heat12",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Heat",
+          "release_year": "1995",
+          "directors": ["Michael Mann"],
+          "producers": [],
+          "box_office": "187 000 000$",
+          "synopsis": "Un duel psychologique intense entre un lieutenant de police et un chef de gang à Los Angeles.",
+          "poster_url": "https://placehold.co/600x900?text=Heat"
+        }
+      },
+      {
+        "id": "films_1766400000013_tita13",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Titanic",
+          "release_year": "1997",
+          "directors": ["James Cameron"],
+          "producers": [],
+          "box_office": "2 200 000 000$",
+          "synopsis": "Une aristocrate tombe amoureuse d'un artiste pauvre à bord du paquebot Titanic.",
+          "poster_url": "https://placehold.co/600x900?text=Titanic"
+        }
+      },
+      {
+        "id": "films_1766400000014_trum14",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "The Truman Show",
+          "release_year": "1998",
+          "directors": ["Peter Weir"],
+          "producers": [],
+          "box_office": "264 000 000$",
+          "synopsis": "Truman découvre que sa vie est une émission de télé-réalité dont il est le seul protagoniste involontaire.",
+          "poster_url": "https://placehold.co/600x900?text=The+Truman+Show"
+        }
+      },
+      {
+        "id": "films_1766400000015_bigle15",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "The Big Lebowski",
+          "release_year": "1998",
+          "directors": ["Joel Coen", "Ethan Coen"],
+          "producers": [],
+          "box_office": "46 000 000$",
+          "synopsis": "Le Duc, un fainéant pacifiste, est entraîné dans une intrigue d'enlèvement absurde.",
+          "poster_url": "https://placehold.co/600x900?text=The+Big+Lebowski"
+        }
+      },
+      {
+        "id": "films_1766400000016_matr16",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Matrix",
+          "release_year": "1999",
+          "directors": ["Lilly Wachowski", "Lana Wachowski"],
+          "producers": [],
+          "box_office": "463 000 000$",
+          "synopsis": "Neo découvre que le monde est une simulation virtuelle et rejoint la rébellion.",
+          "poster_url": "https://placehold.co/600x900?text=Matrix"
+        }
+      },
+      {
+        "id": "films_1766400000017_figh17",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Fight Club",
+          "release_year": "1999",
+          "directors": ["David Fincher"],
+          "producers": [],
+          "box_office": "100 000 000$",
+          "synopsis": "Un cadre insomniaque fonde un club de combat clandestin qui évolue en organisation anarchiste.",
+          "poster_url": "https://placehold.co/600x900?text=Fight+Club"
+        }
+      },
+      {
+        "id": "films_1766400000018_amer18",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "American Beauty",
+          "release_year": "1999",
+          "directors": ["Sam Mendes"],
+          "producers": [],
+          "box_office": "356 000 000$",
+          "synopsis": "Lester Burnham décide de tout envoyer valser, révélant les failles du rêve américain.",
+          "poster_url": "https://placehold.co/600x900?text=American+Beauty"
+        }
+      },
+      {
+        "id": "films_1766400000019_inth19",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "In the Mood for Love",
+          "release_year": "2000",
+          "directors": ["Wong Kar-Wai"],
+          "producers": [],
+          "box_office": "12 000 000$",
+          "synopsis": "Hong Kong, 1962. Deux voisins découvrent que leurs conjoints ont une liaison.",
+          "poster_url": "https://placehold.co/600x900?text=In+the+Mood+for+Love"
+        }
+      },
+      {
+        "id": "films_1766400000020_meme20",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Memento",
+          "release_year": "2000",
+          "directors": ["Christopher Nolan"],
+          "producers": [],
+          "box_office": "40 000 000$",
+          "synopsis": "Un homme amnésique traque l'assassin de sa femme à l'aide de polaroids et de tatouages.",
+          "poster_url": "https://placehold.co/600x900?text=Memento"
+        }
+      },
+      {
+        "id": "films_1766400000021_glad21",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Gladiator",
+          "release_year": "2000",
+          "directors": ["Ridley Scott"],
+          "producers": [],
+          "box_office": "460 000 000$",
+          "synopsis": "Maximus, général romain trahi, devient gladiateur et prépare sa vengeance.",
+          "poster_url": "https://placehold.co/600x900?text=Gladiator"
+        }
+      },
+      {
+        "id": "films_1766400000022_chih22",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Le Voyage de Chihiro",
+          "release_year": "2001",
+          "directors": ["Hayao Miyazaki"],
+          "producers": [],
+          "box_office": "395 000 000$",
+          "synopsis": "Chihiro se retrouve piégée dans un monde d'esprits et doit travailler pour sauver ses parents.",
+          "poster_url": "https://placehold.co/600x900?text=Le+Voyage+de+Chihiro"
+        }
+      },
+      {
+        "id": "films_1766400000023_mulh23",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Mulholland Drive",
+          "release_year": "2001",
+          "directors": ["David Lynch"],
+          "producers": [],
+          "box_office": "20 000 000$",
+          "synopsis": "Une femme amnésique et une aspirante actrice plongent dans une enquête onirique à Los Angeles.",
+          "poster_url": "https://placehold.co/600x900?text=Mulholland+Drive"
+        }
+      },
+      {
+        "id": "films_1766400000024_lord24",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Le Seigneur des anneaux : Les Deux Tours",
+          "release_year": "2002",
+          "directors": ["Peter Jackson"],
+          "producers": [],
+          "box_office": "947 000 000$",
+          "synopsis": "La Communauté est divisée. Frodon et Sam continuent vers le Mordor, Aragorn aide le Rohan.",
+          "poster_url": "https://placehold.co/600x900?text=Le+Seigneur+des+anneaux"
+        }
+      },
+      {
+        "id": "films_1766400000025_cite25",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "La Cité de Dieu",
+          "release_year": "2002",
+          "directors": ["Fernando Meirelles", "Katia Lund"],
+          "producers": [],
+          "box_office": "30 000 000$",
+          "synopsis": "L'évolution du crime organisé dans la Cité de Dieu à Rio, vue par deux jeunes aux destins opposés.",
+          "poster_url": "https://placehold.co/600x900?text=La+Cité+de+Dieu"
+        }
+      },
+      {
+        "id": "films_1766400000026_oldb26",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Old Boy",
+          "release_year": "2003",
+          "directors": ["Park Chan-wook"],
+          "producers": [],
+          "box_office": "15 000 000$",
+          "synopsis": "Séquestré pendant 15 ans, un homme est relâché et a cinq jours pour découvrir pourquoi.",
+          "poster_url": "https://placehold.co/600x900?text=Old+Boy"
+        }
+      },
+      {
+        "id": "films_1766400000027_kill27",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Kill Bill : Volume 1",
+          "release_year": "2003",
+          "directors": ["Quentin Tarantino"],
+          "producers": [],
+          "box_office": "180 000 000$",
+          "synopsis": "La Mariée se lance dans une vengeance sanglante contre ses anciens complices.",
+          "poster_url": "https://placehold.co/600x900?text=Kill+Bill"
+        }
+      },
+      {
+        "id": "films_1766400000028_eter28",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Eternal Sunshine of the Spotless Mind",
+          "release_year": "2004",
+          "directors": ["Michel Gondry"],
+          "producers": [],
+          "box_office": "74 000 000$",
+          "synopsis": "Un couple décide de s'effacer mutuellement de leurs mémoires respectives.",
+          "poster_url": "https://placehold.co/600x900?text=Eternal+Sunshine"
+        }
+      },
+      {
+        "id": "films_1766400000029_mill29",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Million Dollar Baby",
+          "release_year": "2004",
+          "directors": ["Clint Eastwood"],
+          "producers": [],
+          "box_office": "216 000 000$",
+          "synopsis": "Une jeune boxeuse déterminée convainc un entraîneur vieillissant de l'entraîner.",
+          "poster_url": "https://placehold.co/600x900?text=Million+Dollar+Baby"
+        }
+      },
+      {
+        "id": "films_1766400000030_hau30",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Le Château ambulant",
+          "release_year": "2004",
+          "directors": ["Hayao Miyazaki"],
+          "producers": [],
+          "box_office": "236 000 000$",
+          "synopsis": "Sophie, transformée en vieille femme, trouve refuge dans le château ambulant du magicien Hauru.",
+          "poster_url": "https://placehold.co/600x900?text=Le+Château+ambulant"
+        }
+      },
+      {
+        "id": "films_1766400000031_depa31",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Les Infiltrés",
+          "release_year": "2006",
+          "directors": ["Martin Scorsese"],
+          "producers": [],
+          "box_office": "291 000 000$",
+          "synopsis": "Un policier infiltre la mafia tandis qu'un criminel infiltre la police à Boston.",
+          "poster_url": "https://placehold.co/600x900?text=Les+Infiltrés"
+        }
+      },
+      {
+        "id": "films_1766400000032_laby32",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Le Labyrinthe de Pan",
+          "release_year": "2006",
+          "directors": ["Guillermo del Toro"],
+          "producers": [],
+          "box_office": "83 000 000$",
+          "synopsis": "En 1944, la jeune Ofélia découvre un monde souterrain fantastique et cruel.",
+          "poster_url": "https://placehold.co/600x900?text=Le+Labyrinthe+de+Pan"
+        }
+      },
+      {
+        "id": "films_1766400000033_pres33",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Le Prestige",
+          "release_year": "2006",
+          "directors": ["Christopher Nolan"],
+          "producers": [],
+          "box_office": "109 000 000$",
+          "synopsis": "Deux magiciens rivaux s'affrontent dans une compétition obsessionnelle.",
+          "poster_url": "https://placehold.co/600x900?text=Le+Prestige"
+        }
+      },
+      {
+        "id": "films_1766400000034_bloo34",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "There Will Be Blood",
+          "release_year": "2007",
+          "directors": ["Paul Thomas Anderson"],
+          "producers": [],
+          "box_office": "76 000 000$",
+          "synopsis": "La soif de richesse d'un prospecteur de pétrole le conduit à un conflit destructeur.",
+          "poster_url": "https://placehold.co/600x900?text=There+Will+Be+Blood"
+        }
+      },
+      {
+        "id": "films_1766400000035_nocou35",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "No Country for Old Men",
+          "release_year": "2007",
+          "directors": ["Joel Coen", "Ethan Coen"],
+          "producers": [],
+          "box_office": "171 000 000$",
+          "synopsis": "Un soudeur est pris en chasse par un tueur psychopathe après avoir trouvé une valise d'argent.",
+          "poster_url": "https://placehold.co/600x900?text=No+Country+for+Old+Men"
+        }
+      },
+      {
+        "id": "films_1766400000036_dark36",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "The Dark Knight",
+          "release_year": "2008",
+          "directors": ["Christopher Nolan"],
+          "producers": [],
+          "box_office": "1 000 000 000$",
+          "synopsis": "Batman affronte le Joker qui plonge Gotham dans le chaos.",
+          "poster_url": "https://placehold.co/600x900?text=The+Dark+Knight"
+        }
+      },
+      {
+        "id": "films_1766400000037_gran37",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Gran Torino",
+          "release_year": "2008",
+          "directors": ["Clint Eastwood"],
+          "producers": [],
+          "box_office": "270 000 000$",
+          "synopsis": "Un vétéran raciste se lie d'amitié avec son jeune voisin Hmong.",
+          "poster_url": "https://placehold.co/600x900?text=Gran+Torino"
+        }
+      },
+      {
+        "id": "films_1766400000039_ince39",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Inception",
+          "release_year": "2010",
+          "directors": ["Christopher Nolan"],
+          "producers": [],
+          "box_office": "836 000 000$",
+          "synopsis": "Un voleur de secrets doit implanter une idée dans l'esprit d'un héritier via ses rêves.",
+          "poster_url": "https://placehold.co/600x900?text=Inception"
+        }
+      },
+      {
+        "id": "films_1766400000040_inte40",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Interstellar",
+          "release_year": "2014",
+          "directors": ["Christopher Nolan"],
+          "producers": [],
+          "box_office": "701 000 000$",
+          "synopsis": "Des explorateurs voyagent à travers un trou de ver pour sauver l'humanité.",
+          "poster_url": "https://placehold.co/600x900?text=Interstellar"
+        }
+      },
+      {
+        "id": "films_1766400000041_whip41",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Whiplash",
+          "release_year": "2014",
+          "directors": ["Damien Chazelle"],
+          "producers": [],
+          "box_office": "49 000 000$",
+          "synopsis": "Un jeune batteur affronte un professeur tyrannique dans un conservatoire prestigieux.",
+          "poster_url": "https://placehold.co/600x900?text=Whiplash"
+        }
+      },
+      {
+        "id": "films_1766400000042_grand42",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "The Grand Budapest Hotel",
+          "release_year": "2014",
+          "directors": ["Wes Anderson"],
+          "producers": [],
+          "box_office": "173 000 000$",
+          "synopsis": "Les aventures burlesques d'un concierge légendaire et de son lobby-boy.",
+          "poster_url": "https://placehold.co/600x900?text=The+Grand+Budapest+Hotel"
+        }
+      },
+      {
+        "id": "films_1766400000043_madm43",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Mad Max: Fury Road",
+          "release_year": "2015",
+          "directors": ["George Miller"],
+          "producers": [],
+          "box_office": "375 000 000$",
+          "synopsis": "Max et Furiosa fuient un tyran dans une course-poursuite post-apocalyptique.",
+          "poster_url": "https://placehold.co/600x900?text=Mad+Max"
+        }
+      },
+      {
+        "id": "films_1766400000044_lala44",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "La La Land",
+          "release_year": "2016",
+          "directors": ["Damien Chazelle"],
+          "producers": [],
+          "box_office": "447 000 000$",
+          "synopsis": "Une actrice et un musicien tombent amoureux à Los Angeles mais leurs rêves les séparent.",
+          "poster_url": "https://placehold.co/600x900?text=La+La+Land"
+        }
+      },
+      {
+        "id": "films_1766400000045_para45",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Parasite",
+          "release_year": "2019",
+          "directors": ["Bong Joon-ho"],
+          "producers": [],
+          "box_office": "263 000 000$",
+          "synopsis": "Une famille pauvre s'infiltre dans la vie d'une famille riche.",
+          "poster_url": "https://placehold.co/600x900?text=Parasite"
+        }
+      },
+      {
+        "id": "films_1766400000046_joke46",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Joker",
+          "release_year": "2019",
+          "directors": ["Todd Phillips"],
+          "producers": [],
+          "box_office": "1 074 000 000$",
+          "synopsis": "Arthur Fleck sombre dans la folie et devient le Joker.",
+          "poster_url": "https://placehold.co/600x900?text=Joker"
+        }
+      },
+      {
+        "id": "films_1766400000047_every47",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Everything Everywhere All at Once",
+          "release_year": "2022",
+          "directors": ["Daniel Kwan", "Daniel Scheinert"],
+          "producers": [],
+          "box_office": "141 000 000$",
+          "synopsis": "Une femme débordée explore le multivers pour sauver sa famille.",
+          "poster_url": "https://placehold.co/600x900?text=Everything+Everywhere"
+        }
+      },
+      {
+        "id": "films_1766400000048_oppe48",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Oppenheimer",
+          "release_year": "2023",
+          "directors": ["Christopher Nolan"],
+          "producers": [],
+          "box_office": "955 000 000$",
+          "synopsis": "La vie de J. Robert Oppenheimer et la création de la bombe atomique.",
+          "poster_url": "https://placehold.co/600x900?text=Oppenheimer"
+        }
+      },
+      {
+        "id": "films_1766400000049_anat49",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Anatomie d'une chute",
+          "release_year": "2023",
+          "directors": ["Justine Triet"],
+          "producers": [],
+          "box_office": "30 000 000$",
+          "synopsis": "Le procès d'une femme accusée du meurtre de son mari dissèque leur vie de couple.",
+          "poster_url": "https://placehold.co/600x900?text=Anatomie+d'une+chute"
+        }
+      },
+      {
+        "id": "films_1766400000050_anor50",
+        "type": "films",
+        "created_at": "2025-12-22T10:00:00.000Z",
+        "data": {
+          "title": "Anora",
+          "release_year": "2024",
+          "directors": ["Sean Baker"],
+          "producers": [],
+          "box_office": "Non disponible",
+          "synopsis": "Une travailleuse du sexe épouse le fils d'un oligarque russe, provoquant la fureur de sa belle-famille.",
+          "poster_url": "https://placehold.co/600x900?text=Anora"
+        }
+      }
+    ],
+    "musiques": [
+	  {
+		"id": 1,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Flashé",
+		  "release_year": "2018",
+		  "artists": "Dinos",
+		  "label": "SPKTAQLR / Because Music",
+		  "sales_or_streams": "Certifié Or (France)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 2,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Soon As I Get Home",
+		  "release_year": "1996",
+		  "artists": "2Pac",
+		  "label": "Death Row Records",
+		  "sales_or_streams": "Classique posthume, millions de streams",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 3,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Move",
+		  "release_year": "2024",
+		  "artists": "Adam Port, Stryv, Keinemusik",
+		  "label": "Keinemusik",
+		  "sales_or_streams": "Hit viral mondial 2024 (Top Charts)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 4,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Ten Feet Tall",
+		  "release_year": "2014",
+		  "artists": "Afrojack (feat. Wrabel)",
+		  "label": "Island Records",
+		  "sales_or_streams": "Platine (International)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 5,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Illuminate",
+		  "release_year": "2014",
+		  "artists": "Afrojack (feat. Matthew Koma)",
+		  "label": "Island Records",
+		  "sales_or_streams": "Succès Club / Festival",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 6,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Anchor Point",
+		  "release_year": "2022",
+		  "artists": "Ahmed Spins",
+		  "label": "MoBlack Records",
+		  "sales_or_streams": "Hit Afro-House Viral",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 7,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Right Now (Na Na Na)",
+		  "release_year": "2008",
+		  "artists": "Akon",
+		  "label": "Konvict / Upfront",
+		  "sales_or_streams": "Multi-Platine mondial",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 8,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "This Is The Life",
+		  "release_year": "2007",
+		  "artists": "Amy Macdonald",
+		  "label": "Vertigo",
+		  "sales_or_streams": "Disque de Diamant/Platine (Europe)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 9,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "She Makes Me Go (feat. Sean Paul)",
+		  "release_year": "2012",
+		  "artists": "Arash",
+		  "label": "Warner Music",
+		  "sales_or_streams": "Top 10 Charts Europe",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 10,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Aria",
+		  "release_year": "2023",
+		  "artists": "Argy, Omnya",
+		  "label": "Afterlife",
+		  "sales_or_streams": "Hit Techno Melodic Viral",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 11,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "i like the way you kiss me",
+		  "release_year": "2024",
+		  "artists": "Artemas",
+		  "label": "Artemas Music",
+		  "sales_or_streams": "100M+ streams (Viral TikTok)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 12,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "X3",
+		  "release_year": "2021",
+		  "artists": "ASHE 22",
+		  "label": "22 / SBG",
+		  "sales_or_streams": "Populaire scène Drill FR",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 13,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "SUNSET",
+		  "release_year": "2021",
+		  "artists": "ASHE 22",
+		  "label": "22 / SBG",
+		  "sales_or_streams": "Populaire scène Drill FR",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 14,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Milli",
+		  "release_year": "2022",
+		  "artists": "ASHE 22",
+		  "label": "22 / SBG",
+		  "sales_or_streams": "Extrait album 'Riot'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 15,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Bab El Oued",
+		  "release_year": "2022",
+		  "artists": "ASHE 22",
+		  "label": "22 / SBG",
+		  "sales_or_streams": "Populaire scène Drill FR",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 16,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Línea",
+		  "release_year": "2022",
+		  "artists": "ASHE 22",
+		  "label": "22 / SBG",
+		  "sales_or_streams": "Extrait album 'Vingt-Deux'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 17,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Killu",
+		  "release_year": "2022",
+		  "artists": "ASHE 22",
+		  "label": "22 / SBG",
+		  "sales_or_streams": "Succès Underground",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 18,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Believe In Love",
+		  "release_year": "2003",
+		  "artists": "ATB",
+		  "label": "Kontor Records",
+		  "sales_or_streams": "Classique Trance",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 19,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "La promesse de l'aube",
+		  "release_year": "2022",
+		  "artists": "B.B. Jacques",
+		  "label": "NBKS / Warner Music France",
+		  "sales_or_streams": "Album 'Poésie d'une pulsion'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 20,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Palpite sous l'oeil",
+		  "release_year": "2022",
+		  "artists": "B.B. Jacques",
+		  "label": "NBKS / Warner Music France",
+		  "sales_or_streams": "Succès Critique Rap FR",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 21,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "De la lune (feat. Shadi)",
+		  "release_year": "2022",
+		  "artists": "B.B. Jacques",
+		  "label": "NBKS / Warner Music France",
+		  "sales_or_streams": "Extrait 'Poésie d'une pulsion'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 22,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Odyssée",
+		  "release_year": "2022",
+		  "artists": "B.B. Jacques",
+		  "label": "NBKS / Warner Music France",
+		  "sales_or_streams": "Extrait 'Poésie d'une pulsion'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 23,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Fuck off",
+		  "release_year": "2022",
+		  "artists": "B.B. Jacques",
+		  "label": "NBKS",
+		  "sales_or_streams": "Succès suite 'Nouvelle École'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 24,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Donjon",
+		  "release_year": "2022",
+		  "artists": "B.B. Jacques",
+		  "label": "NBKS / Warner Music France",
+		  "sales_or_streams": "Titre fort Rap FR 2022",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 25,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "2h22",
+		  "release_year": "2022",
+		  "artists": "B.B. Jacques",
+		  "label": "NBKS",
+		  "sales_or_streams": "Streamé sur plateformes",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 26,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Piano bleu",
+		  "release_year": "2022",
+		  "artists": "B.B. Jacques",
+		  "label": "NBKS / Warner Music France",
+		  "sales_or_streams": "Extrait 'Poésie d'une pulsion'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 27,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Lynchburg lemonade",
+		  "release_year": "2022",
+		  "artists": "B.B. Jacques",
+		  "label": "NBKS",
+		  "sales_or_streams": "Titre EP",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 28,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "PÉTALES",
+		  "release_year": "2023",
+		  "artists": "B.B. Jacques",
+		  "label": "NBKS / Warner Music France",
+		  "sales_or_streams": "Album 'New Blues'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 29,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Booska Fuck Off",
+		  "release_year": "2022",
+		  "artists": "B.B. Jacques",
+		  "label": "Booska-P / NBKS",
+		  "sales_or_streams": "Freestyle Booska-P",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 30,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Opium",
+		  "release_year": "2022",
+		  "artists": "B.B. Jacques",
+		  "label": "NBKS / Warner Music France",
+		  "sales_or_streams": "Extrait 'Poésie d'une pulsion'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 31,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Volcano Love",
+		  "release_year": "2023",
+		  "artists": "baby hayabusa",
+		  "label": "Indépendant",
+		  "sales_or_streams": "Succès viral TikTok / Hyperpop",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 32,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Smack Yo'",
+		  "release_year": "2022",
+		  "artists": "Beltran",
+		  "label": "Solid Grooves Raw",
+		  "sales_or_streams": "Hit Tech House (Beatport #1)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 33,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Morphée",
+		  "release_year": "2021",
+		  "artists": "Bendo",
+		  "label": "Vova Records",
+		  "sales_or_streams": "Succès scène Rap FR émergente",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 34,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "One More Night",
+		  "release_year": "2024",
+		  "artists": "Benny Benassi (feat. Dino)",
+		  "label": "Ultra Records",
+		  "sales_or_streams": "Single Électro récent",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 35,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Petite Marie (Fanzine Remix)",
+		  "release_year": "2021",
+		  "artists": "Biga*Ranx",
+		  "label": "X-Ray Production",
+		  "sales_or_streams": "Viral YouTube/Fanzine (Reprise Cabrel)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 36,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Coup de vieux",
+		  "release_year": "2022",
+		  "artists": "Bigflo & Oli (feat. Julien Doré)",
+		  "label": "Polydor",
+		  "sales_or_streams": "Certifié Platine (France)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 37,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Ça va beaucoup trop vite",
+		  "release_year": "2022",
+		  "artists": "Bigflo & Oli",
+		  "label": "Polydor",
+		  "sales_or_streams": "Extrait album 'Les autres c'est nous'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 38,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "everything i wanted",
+		  "release_year": "2019",
+		  "artists": "Billie Eilish",
+		  "label": "Darkroom / Interscope",
+		  "sales_or_streams": "Multi-Platine / Grammy Award",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 39,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Rattle",
+		  "release_year": "2011",
+		  "artists": "Bingo Players",
+		  "label": "Hysteria",
+		  "sales_or_streams": "Classique EDM / Top Charts UK",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 40,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "I Believe",
+		  "release_year": "2018",
+		  "artists": "Bob Sinclar",
+		  "label": "Yellow Productions",
+		  "sales_or_streams": "Succès Radio été 2018",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 41,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Gym Tonic",
+		  "release_year": "1998",
+		  "artists": "Bob Sinclar",
+		  "label": "Yellow Productions",
+		  "sales_or_streams": "Classique French Touch (Sample Jane Fonda)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 42,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Tuesday",
+		  "release_year": "2016",
+		  "artists": "Burak Yeter (feat. Danelle Sandoval)",
+		  "label": "Sony Music",
+		  "sales_or_streams": "Diamant (France) / Hit Mondial",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 43,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "I Need Your Love",
+		  "release_year": "2012",
+		  "artists": "Calvin Harris (feat. Ellie Goulding)",
+		  "label": "Columbia / Fly Eye",
+		  "sales_or_streams": "Multi-Platine",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 44,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Sweet Nothing",
+		  "release_year": "2012",
+		  "artists": "Calvin Harris (feat. Florence Welch)",
+		  "label": "Columbia",
+		  "sales_or_streams": "Nommé aux Grammys / Platine",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 45,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Under Control",
+		  "release_year": "2013",
+		  "artists": "Calvin Harris & Alesso (feat. Hurts)",
+		  "label": "Columbia",
+		  "sales_or_streams": "#1 UK Singles Chart",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 46,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Prada",
+		  "release_year": "2023",
+		  "artists": "cassö, RAYE, D-Block Europe",
+		  "label": "Ministry of Sound",
+		  "sales_or_streams": "Hit Viral / Top Charts 2023",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 47,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Me & You",
+		  "release_year": "2021",
+		  "artists": "Central Cee",
+		  "label": "Live Yours",
+		  "sales_or_streams": "Mixtape 'Wild West'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 48,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "LET GO",
+		  "release_year": "2022",
+		  "artists": "Central Cee",
+		  "label": "Live Yours",
+		  "sales_or_streams": "Hit Viral (Sample Passenger)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 49,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Believe",
+		  "release_year": "1998",
+		  "artists": "Cher",
+		  "label": "Warner Bros.",
+		  "sales_or_streams": "Un des singles les plus vendus au monde",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 50,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Adventure of a Lifetime",
+		  "release_year": "2015",
+		  "artists": "Coldplay",
+		  "label": "Parlophone",
+		  "sales_or_streams": "Platine / Milliards de streams",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 51,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "This Life Of Ours",
+		  "release_year": "2022",
+		  "artists": "Cormega",
+		  "label": "Legal Hustle",
+		  "sales_or_streams": "Album 'The Realness II' (Hip-hop US)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 52,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Push Up",
+		  "release_year": "2023",
+		  "artists": "Creeds",
+		  "label": "Rave Alert",
+		  "sales_or_streams": "Phénomène Techno Viral 2023",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 53,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "There She Goes",
+		  "release_year": "2023",
+		  "artists": "Cyril",
+		  "label": "Spinnin' / Dharma",
+		  "sales_or_streams": "Remix/Cover (Artiste viral pour 'Stumblin In')",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 54,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Discovery",
+		  "release_year": "2001",
+		  "artists": "Daft Punk",
+		  "label": "Virgin",
+		  "sales_or_streams": "Album Culte (One More Time, etc.)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 55,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "TRON: Legacy",
+		  "release_year": "2010",
+		  "artists": "Daft Punk",
+		  "label": "Walt Disney",
+		  "sales_or_streams": "Bande Originale de Film",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 56,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Random Access Memories",
+		  "release_year": "2013",
+		  "artists": "Daft Punk",
+		  "label": "Columbia",
+		  "sales_or_streams": "Album de l'année (Grammy) / Get Lucky",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 57,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "I'm Good (Blue)",
+		  "release_year": "2022",
+		  "artists": "David Guetta & Bebe Rexha",
+		  "label": "Parlophone / Warner",
+		  "sales_or_streams": "Milliards de streams / #1 Mondial",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 58,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Titanium (feat. Sia)",
+		  "release_year": "2011",
+		  "artists": "David Guetta",
+		  "label": "Virgin / EMI",
+		  "sales_or_streams": "Classique EDM / Multi-Platine",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 59,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Love Don't Let Me Go",
+		  "release_year": "2002",
+		  "artists": "David Guetta (feat. Chris Willis)",
+		  "label": "Virgin",
+		  "sales_or_streams": "Disque d'Or / Succès initial",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 60,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Daylight",
+		  "release_year": "2023",
+		  "artists": "David Kushner",
+		  "label": "Miserable Music",
+		  "sales_or_streams": "Phénomène Viral / Platine",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 61,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Body Talk (feat. Julian Perretta)",
+		  "release_year": "2014",
+		  "artists": "Dimitri Vegas, Like Mike, Moguai",
+		  "label": "Smash The House / Spinnin'",
+		  "sales_or_streams": "Hit Festival / Gold",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 62,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Arob@se",
+		  "release_year": "2020",
+		  "artists": "Dinos",
+		  "label": "SPKTAQLR / Because Music",
+		  "sales_or_streams": "Extrait album 'Stamina,'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 63,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Modus Vivendi",
+		  "release_year": "2020",
+		  "artists": "Dinos",
+		  "label": "SPKTAQLR / Because Music",
+		  "sales_or_streams": "Titre catalogue",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 64,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Placebo",
+		  "release_year": "2019",
+		  "artists": "Dinos",
+		  "label": "SPKTAQLR",
+		  "sales_or_streams": "Classique Fanbase (Album Taciturne)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 65,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Mojave Ghost",
+		  "release_year": "2022",
+		  "artists": "Dinos",
+		  "label": "SPKTAQLR",
+		  "sales_or_streams": "Extrait 'Hiver à Paris'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 66,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Ma chérie 2K12",
+		  "release_year": "2011",
+		  "artists": "DJ Antoine (feat. The Beat Shakers)",
+		  "label": "Houseworks",
+		  "sales_or_streams": "Multi-Platine en Europe",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 67,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Sarà perchè ti amo",
+		  "release_year": "2008",
+		  "artists": "DJ Antoine",
+		  "label": "Houseworks",
+		  "sales_or_streams": "Reprise virale Club/TikTok",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 68,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Interlude (straight shooter)",
+		  "release_year": "2022",
+		  "artists": "DOC OVG",
+		  "label": "667",
+		  "sales_or_streams": "Underground / Collectif 667",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 69,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Pop Style",
+		  "release_year": "2016",
+		  "artists": "Drake (feat. The Throne)",
+		  "label": "OVO Sound / Republic",
+		  "sales_or_streams": "Succès international (Album Views)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 70,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Le ciel est la limite",
+		  "release_year": "2017",
+		  "artists": "DTF",
+		  "label": "QLF Records",
+		  "sales_or_streams": "Disque d'Or/Platine (Album Sans rêve)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 71,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Neptune de miel",
+		  "release_year": "2022",
+		  "artists": "DTF",
+		  "label": "QLF Records",
+		  "sales_or_streams": "Streaming régulier (Karma)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 72,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Je t'emmène",
+		  "release_year": "2019",
+		  "artists": "DTF",
+		  "label": "QLF Records",
+		  "sales_or_streams": "Succès single (Album On ira où)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 73,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Celestial",
+		  "release_year": "2022",
+		  "artists": "Ed Sheeran",
+		  "label": "Atlantic / Pokémon",
+		  "sales_or_streams": "Hit Radio / BO Pokémon",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 74,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "The Monster",
+		  "release_year": "2013",
+		  "artists": "Eminem (feat. Rihanna)",
+		  "label": "Aftermath / Interscope",
+		  "sales_or_streams": "Diamant/Multi-Platine mondial",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 75,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Allein",
+		  "release_year": "2012",
+		  "artists": "Eric Prydz",
+		  "label": "Virgin / Astralwerks",
+		  "sales_or_streams": "Classique House Progressive",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 76,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Som Sas",
+		  "release_year": "2011",
+		  "artists": "Eric Prydz (Pryda)",
+		  "label": "Pryda Recordings",
+		  "sales_or_streams": "Culte scène Électro",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 77,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Bring Me To Life",
+		  "release_year": "2003",
+		  "artists": "Evanescence",
+		  "label": "Wind-up",
+		  "sales_or_streams": "Milliard de streams / Classique Rock",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 78,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Mots pour maux",
+		  "release_year": "2019",
+		  "artists": "F430",
+		  "label": "Guévarra Records",
+		  "sales_or_streams": "Classique Cloud Rap FR (PNL affiliate)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 79,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Champion Sound (feat. LSK)",
+		  "release_year": "2004",
+		  "artists": "Faithless",
+		  "label": "Cheeky Records",
+		  "sales_or_streams": "Album track (No Roots)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 80,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "All Over The World",
+		  "release_year": "2019",
+		  "artists": "Fedde Le Grand",
+		  "label": "Spinnin' Records",
+		  "sales_or_streams": "Succès Club",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 81,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Call It Love",
+		  "release_year": "2022",
+		  "artists": "Felix Jaehn & Ray Dalton",
+		  "label": "Virgin",
+		  "sales_or_streams": "Disque d'Or en Allemagne",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 82,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Ready For Your Love",
+		  "release_year": "2014",
+		  "artists": "Felix Jaehn (Remix/Cover)",
+		  "label": "Inconnu",
+		  "sales_or_streams": "Incertain",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 83,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Club Can't Handle Me",
+		  "release_year": "2010",
+		  "artists": "Flo Rida (feat. David Guetta)",
+		  "label": "Poe Boy / Atlantic",
+		  "sales_or_streams": "Hit Mondial / Multi-Platine",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 84,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Lamborghini bénie",
+		  "release_year": "2023",
+		  "artists": "Freeze Corleone",
+		  "label": "MMS / Jeune à Jamais",
+		  "sales_or_streams": "Hit Album ADC",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 85,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Jour de plus",
+		  "release_year": "2023",
+		  "artists": "Freeze Corleone",
+		  "label": "MMS / Jeune à Jamais",
+		  "sales_or_streams": "Album ADC (Certifié Or/Platine)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 86,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Ancelotti",
+		  "release_year": "2023",
+		  "artists": "Freeze Corleone",
+		  "label": "MMS / Jeune à Jamais",
+		  "sales_or_streams": "Top Streaming France à sortie",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 87,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Isshin Ashina",
+		  "release_year": "2023",
+		  "artists": "Freeze Corleone",
+		  "label": "MMS / Jeune à Jamais",
+		  "sales_or_streams": "Album ADC",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 88,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Voldemort",
+		  "release_year": "2023",
+		  "artists": "Freeze Corleone",
+		  "label": "MMS / Jeune à Jamais",
+		  "sales_or_streams": "Album ADC",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 89,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Bill Clinton",
+		  "release_year": "2023",
+		  "artists": "Freeze Corleone",
+		  "label": "MMS / Jeune à Jamais",
+		  "sales_or_streams": "Album ADC",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 90,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Amérique du sud",
+		  "release_year": "2023",
+		  "artists": "Freeze Corleone",
+		  "label": "MMS / Jeune à Jamais",
+		  "sales_or_streams": "Album ADC (Certifié Or)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 91,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Shavkat",
+		  "release_year": "2023",
+		  "artists": "Freeze Corleone",
+		  "label": "MMS / Jeune à Jamais",
+		  "sales_or_streams": "Single d'or / Top Streaming",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 92,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Poussière",
+		  "release_year": "2021",
+		  "artists": "Frenetik",
+		  "label": "Blue Sky",
+		  "sales_or_streams": "Extrait album 'Jeu de couleurs'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 93,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Moonlight",
+		  "release_year": "2018",
+		  "artists": "Gaullin",
+		  "label": "Lithuania HQ",
+		  "sales_or_streams": "Hit Viral / Slap House (XXXTentacion cover)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 94,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "FLEURS",
+		  "release_year": "2022",
+		  "artists": "Gazo (feat. Tiakola)",
+		  "label": "BSB / Epic Records",
+		  "sales_or_streams": "Certifié Diamant (France)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 95,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "One Shot",
+		  "release_year": "2022",
+		  "artists": "GIMS",
+		  "label": "TF1 Musique / Indifférence Prod",
+		  "sales_or_streams": "Extrait album 'LDVM'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 96,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "TU ME RENDS BÊTE",
+		  "release_year": "2022",
+		  "artists": "GIMS",
+		  "label": "TF1 Musique / Indifférence Prod",
+		  "sales_or_streams": "Extrait album 'LDVM'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 97,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Un monde à l'autre",
+		  "release_year": "2023",
+		  "artists": "GP Explorer",
+		  "label": "Balade / Gentile Corp",
+		  "sales_or_streams": "Succès événementiel Twitch/YouTube",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 98,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Toute la nuit",
+		  "release_year": "2023",
+		  "artists": "GP Explorer",
+		  "label": "Balade / Gentile Corp",
+		  "sales_or_streams": "Succès événementiel Twitch/YouTube",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 99,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "KYKY2BONDY",
+		  "release_year": "2023",
+		  "artists": "Hamza",
+		  "label": "Galag Music",
+		  "sales_or_streams": "Album Sincèrement - Platine",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 100,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "We Are Legends",
+		  "release_year": "2017",
+		  "artists": "Hardwell & KSHMR",
+		  "label": "Revealed Recordings",
+		  "sales_or_streams": "Hit Festival EDM",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 101,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Touch Me",
+		  "release_year": "2020",
+		  "artists": "Harrison",
+		  "label": "Virgin",
+		  "sales_or_streams": "Reprise/Sample célèbre",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 102,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "noyé",
+		  "release_year": "2021",
+		  "artists": "Hatik",
+		  "label": "Play Two",
+		  "sales_or_streams": "Extrait album 'Vague à l'âme'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 103,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Saiyan",
+		  "release_year": "2023",
+		  "artists": "Heuss L'enfoiré x Gazo",
+		  "label": "150 / Midi Midi",
+		  "sales_or_streams": "Certifié Diamant/Platine",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 104,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Red & Black Light",
+		  "release_year": "2015",
+		  "artists": "Ibrahim Maalouf",
+		  "label": "Mi'ster Productions",
+		  "sales_or_streams": "Succès critique Jazz/Fusion",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 105,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Tenere",
+		  "release_year": "2022",
+		  "artists": "Irko",
+		  "label": "Indépendant / AWA?",
+		  "sales_or_streams": "Scène New Wave/Underground FR",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 106,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "ON SE PARLE PLUS MAINTENANT",
+		  "release_year": "2023",
+		  "artists": "J9ueve",
+		  "label": "Roro la meute / Elektra",
+		  "sales_or_streams": "Album 'Le Bijou le plus brillant'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 107,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "ALRIGHT",
+		  "release_year": "2023",
+		  "artists": "J9ueve",
+		  "label": "Roro la meute / Elektra",
+		  "sales_or_streams": "Album 'Le Bijou le plus brillant'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 108,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "DIAMANT",
+		  "release_year": "2023",
+		  "artists": "J9ueve",
+		  "label": "Roro la meute / Elektra",
+		  "sales_or_streams": "Album 'Le Bijou le plus brillant'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 109,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Vibe",
+		  "release_year": "2023",
+		  "artists": "J9ueve",
+		  "label": "Roro la meute / Elektra",
+		  "sales_or_streams": "Album 'Le Bijou le plus brillant'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 110,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Dépensier",
+		  "release_year": "2023",
+		  "artists": "J9ueve",
+		  "label": "Roro la meute / Elektra",
+		  "sales_or_streams": "Album 'Le Bijou le plus brillant'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 111,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "BBY LUV",
+		  "release_year": "2023",
+		  "artists": "J9ueve",
+		  "label": "Roro la meute / Elektra",
+		  "sales_or_streams": "Album 'Le Bijou le plus brillant'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 112,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "LE MONDE ETAIT A NOUS",
+		  "release_year": "2023",
+		  "artists": "J9ueve",
+		  "label": "Roro la meute / Elektra",
+		  "sales_or_streams": "Album 'Le Bijou le plus brillant'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 113,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Le plan",
+		  "release_year": "2023",
+		  "artists": "J9ueve",
+		  "label": "Roro la meute / Elektra",
+		  "sales_or_streams": "Album 'Le Bijou le plus brillant'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 114,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Infinity",
+		  "release_year": "2017",
+		  "artists": "Jaymes Young",
+		  "label": "Atlantic",
+		  "sales_or_streams": "Succès retardé viral TikTok (2021)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 115,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Lionheart (Fearless)",
+		  "release_year": "2022",
+		  "artists": "Joel Corry & Tom Grennan",
+		  "label": "Atlantic",
+		  "sales_or_streams": "Top Charts UK",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 116,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Las vegas",
+		  "release_year": "2019",
+		  "artists": "Jok'air",
+		  "label": "Play Two",
+		  "sales_or_streams": "Disque d'Or",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 117,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "1.2.3 (2023VERSION)",
+		  "release_year": "2023",
+		  "artists": "Jolagreen23",
+		  "label": "Blue Sky",
+		  "sales_or_streams": "Révélation Rap FR",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 118,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Brûle",
+		  "release_year": "2022",
+		  "artists": "Josman",
+		  "label": "Sideline",
+		  "sales_or_streams": "Album M.A.N (Certifié Platine)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 119,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:00:00Z",
+		"updated_at": "2025-12-23T14:00:00Z",
+		"data": {
+		  "title": "Mort Ce soir",
+		  "release_year": "2022",
+		  "artists": "Josman",
+		  "label": "Sideline",
+		  "sales_or_streams": "Album M.A.N (Disque de Platine)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 120,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Brûle",
+		  "release_year": "2022",
+		  "artists": "Josman",
+		  "label": "Sideline",
+		  "sales_or_streams": "Album M.A.N (Doublon liste)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 121,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Flashing Lights",
+		  "release_year": "2007",
+		  "artists": "Kanye West (feat. Dwele)",
+		  "label": "Roc-A-Fella / Def Jam",
+		  "sales_or_streams": "Multi-Platine / Classique Hip-Hop",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 122,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Last Chance",
+		  "release_year": "2013",
+		  "artists": "Kaskade & Project 46",
+		  "label": "Ultra Records",
+		  "sales_or_streams": "Hit EDM Progressive House",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 123,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Angel On My Shoulder",
+		  "release_year": "2008",
+		  "artists": "Kaskade",
+		  "label": "Ultra Records",
+		  "sales_or_streams": "Classique House US",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 124,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Nightcall",
+		  "release_year": "2010",
+		  "artists": "Kavinsky",
+		  "label": "Record Makers",
+		  "sales_or_streams": "BO du film 'Drive' / Culte",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 125,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "En chantier",
+		  "release_year": "2020",
+		  "artists": "Kaza",
+		  "label": "HRZNS / Elektra",
+		  "sales_or_streams": "Hit viral Rap FR",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 126,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Premier étage",
+		  "release_year": "2017",
+		  "artists": "KeBlack",
+		  "label": "Bomayé Musik",
+		  "sales_or_streams": "Disque d'Or",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 127,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "J'avance",
+		  "release_year": "2023",
+		  "artists": "Kekra",
+		  "label": "VRL",
+		  "sales_or_streams": "Album 'Stratos'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 128,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Nuages",
+		  "release_year": "2023",
+		  "artists": "Kekra",
+		  "label": "VRL",
+		  "sales_or_streams": "Album 'Stratos'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 129,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Viceland",
+		  "release_year": "2019",
+		  "artists": "Kekra",
+		  "label": "VRL / AllPoints",
+		  "sales_or_streams": "Album 'Vréalité'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 130,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Tarzan",
+		  "release_year": "2022",
+		  "artists": "Kerchak",
+		  "label": "Saboteur / Blue Sky",
+		  "sales_or_streams": "Hit Jersey Drill (Disque d'Or)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 131,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "808",
+		  "release_year": "2022",
+		  "artists": "Khali",
+		  "label": "Indépendant",
+		  "sales_or_streams": "Succès d'estime Rap FR",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 132,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Whine Dat",
+		  "release_year": "2013",
+		  "artists": "Kongsted",
+		  "label": "Universal Music",
+		  "sales_or_streams": "Hit Club Danemark",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 133,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Bad Romance",
+		  "release_year": "2021",
+		  "artists": "Laylow",
+		  "label": "Digital Mundo",
+		  "sales_or_streams": "Album 'L'Étrange Histoire...' (Platine)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 134,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "BASKET CORTEZ",
+		  "release_year": "2021",
+		  "artists": "Leone",
+		  "label": "Indépendant",
+		  "sales_or_streams": "Drill FR",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 135,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Attitude",
+		  "release_year": "2020",
+		  "artists": "Lewis OfMan",
+		  "label": "Profil de Face",
+		  "sales_or_streams": "Pop/Électro Indé",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 136,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "STAR WALKIN' (League of Legends Worlds Anthem)",
+		  "release_year": "2022",
+		  "artists": "Lil Nas X",
+		  "label": "Columbia",
+		  "sales_or_streams": "Hit Mondial / eSports Anthem",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 137,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Good Goodbye (feat. Stormzy)",
+		  "release_year": "2017",
+		  "artists": "Linkin Park",
+		  "label": "Warner Bros.",
+		  "sales_or_streams": "Album 'One More Light'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 138,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Party Rock Anthem",
+		  "release_year": "2011",
+		  "artists": "LMFAO",
+		  "label": "Interscope",
+		  "sales_or_streams": "Disque de Diamant (Milliard de vues)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 139,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "1000°C (feat. Roméo Elvis)",
+		  "release_year": "2018",
+		  "artists": "Lomepal",
+		  "label": "Pineale Prod / Grand Musique",
+		  "sales_or_streams": "Disque de Diamant (France)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 140,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Last Night",
+		  "release_year": "2023",
+		  "artists": "LOOFY",
+		  "label": "Indépendant",
+		  "sales_or_streams": "Viral TikTok/Reels",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 141,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Cooler Than Me",
+		  "release_year": "2020",
+		  "artists": "Lucky Luke",
+		  "label": "Lithuania HQ",
+		  "sales_or_streams": "Remix Slap House Viral",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 142,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Néons rouges / Belles chansons",
+		  "release_year": "2019",
+		  "artists": "Luidji",
+		  "label": "Foufoune Palace",
+		  "sales_or_streams": "Album 'Tristesse Business' (Platine)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 143,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Souvenir",
+		  "release_year": "2023",
+		  "artists": "Luv Resval",
+		  "label": "AWA",
+		  "sales_or_streams": "Album Posthume 'Mustafar'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 144,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Flûte de pan",
+		  "release_year": "2021",
+		  "artists": "Luv Resval",
+		  "label": "AWA",
+		  "sales_or_streams": "Mixtape 'Etoile Noire 2.0'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 145,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Smith & Wesson",
+		  "release_year": "2021",
+		  "artists": "Luv Resval",
+		  "label": "AWA",
+		  "sales_or_streams": "Album 'Etoile Noire' (Or/Platine)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 146,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Hyrule",
+		  "release_year": "2023",
+		  "artists": "Luv Resval",
+		  "label": "AWA",
+		  "sales_or_streams": "Album Posthume 'Mustafar'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 147,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Cinderella (feat. Ty Dolla $ign)",
+		  "release_year": "2016",
+		  "artists": "Mac Miller",
+		  "label": "Warner Bros.",
+		  "sales_or_streams": "Fan favorite (The Divine Feminine)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 148,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Music",
+		  "release_year": "2000",
+		  "artists": "Madonna",
+		  "label": "Maverick / Warner",
+		  "sales_or_streams": "N°1 Mondial / Multi-Platine",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 149,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Boyz In Paris",
+		  "release_year": "2023",
+		  "artists": "Marnik & Naeleck",
+		  "label": "Sony Music",
+		  "sales_or_streams": "Sample viral 'Niggas in Paris'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 150,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Do It Right",
+		  "release_year": "2016",
+		  "artists": "Martin Solveig (feat. Tkay Maidza)",
+		  "label": "Virgin / EMI",
+		  "sales_or_streams": "Succès Club / Radio (Or)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 151,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Hello",
+		  "release_year": "2010",
+		  "artists": "Martin Solveig (feat. Dragonette)",
+		  "label": "Mercury / Universal",
+		  "sales_or_streams": "Hit Mondial / Multi-Platine",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 152,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Rhythm Is a Dancer",
+		  "release_year": "2020",
+		  "artists": "Max Deejay",
+		  "label": "Indépendant / Cover",
+		  "sales_or_streams": "Reprise Slap House du tube de Snap!",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 153,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Black or White",
+		  "release_year": "1991",
+		  "artists": "Michael Jackson",
+		  "label": "Epic Records",
+		  "sales_or_streams": "Légendaire / Disque de Platine+",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 154,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Relax, Take It Easy",
+		  "release_year": "2006",
+		  "artists": "MIKA",
+		  "label": "Casablanca / Island",
+		  "sales_or_streams": "N°1 Europe / Album 'Life in Cartoon Motion'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 155,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Stargazing",
+		  "release_year": "2024",
+		  "artists": "Myles Smith",
+		  "label": "Sony Music",
+		  "sales_or_streams": "Tube Viral Printemps 2024",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 156,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Lettre à une femme",
+		  "release_year": "2019",
+		  "artists": "Ninho",
+		  "label": "Mal Luné Music / Rec 118",
+		  "sales_or_streams": "Certifié Diamant (France)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 157,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "No love",
+		  "release_year": "2021",
+		  "artists": "Ninho",
+		  "label": "JEFE Productions",
+		  "sales_or_streams": "Extrait album 'JEFE' (Diamant)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 158,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "La vie qu'on mène",
+		  "release_year": "2019",
+		  "artists": "Ninho",
+		  "label": "Mal Luné Music / Rec 118",
+		  "sales_or_streams": "Certifié Diamant (Classique moderne)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 159,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Luv (sic) pt5",
+		  "release_year": "2012",
+		  "artists": "Nujabes (feat. Shing02)",
+		  "label": "Hydeout Productions",
+		  "sales_or_streams": "Culte Lo-Fi Hip Hop",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 160,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Friendships (Lost My Love)",
+		  "release_year": "2020",
+		  "artists": "Pascal Letoublon",
+		  "label": "Virgin / Suprafive",
+		  "sales_or_streams": "Hit Viral TikTok (Version vocal)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 161,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Un jour je marierai un ange",
+		  "release_year": "2022",
+		  "artists": "Pierre de Maere",
+		  "label": "Cinq7 / Wagram",
+		  "sales_or_streams": "Certifié Diamant (France/Belgique)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 162,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Another Brick in the Wall, Pt. 1",
+		  "release_year": "1979",
+		  "artists": "Pink Floyd",
+		  "label": "Harvest / Columbia",
+		  "sales_or_streams": "Album 'The Wall' (Légende)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 163,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "One of These Days",
+		  "release_year": "1971",
+		  "artists": "Pink Floyd",
+		  "label": "Harvest",
+		  "sales_or_streams": "Album 'Meddle' (Classique Prog)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 164,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Echoes",
+		  "release_year": "1971",
+		  "artists": "Pink Floyd",
+		  "label": "Harvest",
+		  "sales_or_streams": "Chef d'œuvre de 23min (Meddle)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 165,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "All Night",
+		  "release_year": "2020",
+		  "artists": "PLK",
+		  "label": "Enna / Panenka",
+		  "sales_or_streams": "Extrait album 'Enna' (Platine)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 166,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Blanka",
+		  "release_year": "2019",
+		  "artists": "PNL",
+		  "label": "QLF Records",
+		  "sales_or_streams": "Certifié Diamant",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 167,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Je vis je visser",
+		  "release_year": "2015",
+		  "artists": "PNL",
+		  "label": "QLF Records",
+		  "sales_or_streams": "Classique 'Le Monde Chico'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 168,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "What You Know Bout Love",
+		  "release_year": "2020",
+		  "artists": "Pop Smoke",
+		  "label": "Victor Victor / Republic",
+		  "sales_or_streams": "Hit Viral TikTok / Multi-Platine",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 169,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Dior",
+		  "release_year": "2019",
+		  "artists": "Pop Smoke",
+		  "label": "Victor Victor / Republic",
+		  "sales_or_streams": "Hymne Drill US",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 170,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "TBT2K19",
+		  "release_year": "2019",
+		  "artists": "PUSH & GIO",
+		  "label": "Indépendant / DJ Edit",
+		  "sales_or_streams": "Succès Soundcloud/Club local",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 171,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "SOLIDE",
+		  "release_year": "2020",
+		  "artists": "PUSH & GIO",
+		  "label": "Indépendant",
+		  "sales_or_streams": "Mashup/Remix Club",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 172,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "CLAP THAT A$$",
+		  "release_year": "2021",
+		  "artists": "PUSH & GIO",
+		  "label": "Indépendant",
+		  "sales_or_streams": "Mashup/Remix Club",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 173,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "All Around The World (La La La)",
+		  "release_year": "2019",
+		  "artists": "R3HAB x A Touch of Class",
+		  "label": "CYB3RPVNK",
+		  "sales_or_streams": "Hit Mondial / Platine",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 174,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Islands",
+		  "release_year": "2018",
+		  "artists": "R3HAB & KSHMR",
+		  "label": "Dharma",
+		  "sales_or_streams": "Hit Festival EDM",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 175,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Revolution",
+		  "release_year": "2013",
+		  "artists": "R3HAB & NERVO & Ummet Ozcan",
+		  "label": "Spinnin' Records",
+		  "sales_or_streams": "#1 Beatport / Hymne Tomorrowland",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 176,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Dois je m'en aller?",
+		  "release_year": "2015",
+		  "artists": "RIDSA",
+		  "label": "Juston Records / Wagram",
+		  "sales_or_streams": "Disque de Platine",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 177,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Only Girl (In The World)",
+		  "release_year": "2010",
+		  "artists": "Rihanna",
+		  "label": "Def Jam",
+		  "sales_or_streams": "Grammy Award / Multi-Platine",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 178,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Metaverse",
+		  "release_year": "2022",
+		  "artists": "Rim'K (feat. Freeze Corleone)",
+		  "label": "Frenesik",
+		  "sales_or_streams": "Rencontre choc Drill FR",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 179,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:05:00Z",
+		"updated_at": "2025-12-23T14:05:00Z",
+		"data": {
+		  "title": "Children",
+		  "release_year": "1995",
+		  "artists": "Robert Miles",
+		  "label": "Deconstruction / DBX",
+		  "sales_or_streams": "Pionnier Dream Trance / N°1 Mondial",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 180,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Once Upon A Time I",
+		  "release_year": "2003",
+		  "artists": "Schiller",
+		  "label": "Polydor",
+		  "sales_or_streams": "Album 'Leben' (Ambient/Trance)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 181,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Calling (Lose My Mind)",
+		  "release_year": "2012",
+		  "artists": "Sebastian Ingrosso & Alesso",
+		  "label": "Refune / UMG",
+		  "sales_or_streams": "Hymne EDM Progressive House",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 182,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Reload",
+		  "release_year": "2012",
+		  "artists": "Sebastian Ingrosso & Tommy Trash",
+		  "label": "Refune / Ministry of Sound",
+		  "sales_or_streams": "Classique Festival (Version vocale 2013)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 183,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "I'm Picky",
+		  "release_year": "2011",
+		  "artists": "Shaka Ponk",
+		  "label": "Tôt ou tard",
+		  "sales_or_streams": "Succès Rock FR / Publicité",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 184,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Gimme Love",
+		  "release_year": "2023",
+		  "artists": "Sia",
+		  "label": "Monkey Puzzle / Atlantic",
+		  "sales_or_streams": "Hit Radio / Album 'Reasonable Woman'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 185,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Tainted Love",
+		  "release_year": "1981",
+		  "artists": "Soft Cell",
+		  "label": "Some Bizzare",
+		  "sales_or_streams": "Classique New Wave / Disque d'Or",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 186,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Waiting for a Woman",
+		  "release_year": "2019",
+		  "artists": "Status Quo",
+		  "label": "earMUSIC",
+		  "sales_or_streams": "Album 'Backbone'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 187,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Wasted Love",
+		  "release_year": "2014",
+		  "artists": "Steve Angello (feat. Dougy)",
+		  "label": "Size / Columbia",
+		  "sales_or_streams": "Hit Indie Dance",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 188,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Rushing Water",
+		  "release_year": "2021",
+		  "artists": "Sting",
+		  "label": "A&M / Interscope",
+		  "sales_or_streams": "Album 'The Bridge'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 189,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Jenny (I Wanna Ruin Our Friendship)",
+		  "release_year": "2013",
+		  "artists": "Studio Killers",
+		  "label": "Studio Killers Records",
+		  "sales_or_streams": "Succès Viral TikTok (2020) / Or",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 190,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Moth To A Flame",
+		  "release_year": "2021",
+		  "artists": "Swedish House Mafia & The Weeknd",
+		  "label": "Republic",
+		  "sales_or_streams": "Hit Mondial / Platine",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 191,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "One",
+		  "release_year": "2010",
+		  "artists": "Swedish House Mafia",
+		  "label": "Virgin / Astralwerks",
+		  "sales_or_streams": "Classique EDM / Multi-Platine",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 192,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Don't You Worry Child",
+		  "release_year": "2012",
+		  "artists": "Swedish House Mafia (feat. John Martin)",
+		  "label": "Virgin / Astralwerks",
+		  "sales_or_streams": "Hymne EDM / Milliard de streams",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 193,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "greedy",
+		  "release_year": "2023",
+		  "artists": "Tate McRae",
+		  "label": "RCA",
+		  "sales_or_streams": "#1 Global Spotify / Viral",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 194,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "The Door",
+		  "release_year": "2023",
+		  "artists": "Teddy Swims",
+		  "label": "Warner",
+		  "sales_or_streams": "Succès Soul/Pop Viral",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 195,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Fade Out Lines",
+		  "release_year": "2014",
+		  "artists": "The Avener",
+		  "label": "Capitol Music",
+		  "sales_or_streams": "Hit Deep House / Diamant (Export)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 196,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Don't You Worry",
+		  "release_year": "2022",
+		  "artists": "The Black Eyed Peas, Shakira, David Guetta",
+		  "label": "Epic",
+		  "sales_or_streams": "Hit Radio Été 2022",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 197,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Don't Let Me Down",
+		  "release_year": "2016",
+		  "artists": "The Chainsmokers (feat. Daya)",
+		  "label": "Columbia / Disruptor",
+		  "sales_or_streams": "Diamant (US) / Grammy Award",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 198,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "The Hills",
+		  "release_year": "2015",
+		  "artists": "The Weeknd",
+		  "label": "XO / Republic",
+		  "sales_or_streams": "Diamant (11x Platine US)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 199,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Freedom Fighters",
+		  "release_year": "2011",
+		  "artists": "Thomas Bergersen (Two Steps From Hell)",
+		  "label": "Two Steps From Hell",
+		  "sales_or_streams": "Classique musique épique (Album Invincible)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 200,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Light Years Away",
+		  "release_year": "2014",
+		  "artists": "Tiësto (feat. DBX)",
+		  "label": "Musical Freedom / PM:AM",
+		  "sales_or_streams": "Extrait album 'A Town Called Paradise'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 201,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "A Town Called Paradise",
+		  "release_year": "2014",
+		  "artists": "Tiësto (feat. Zac Barnett)",
+		  "label": "Musical Freedom / PM:AM",
+		  "sales_or_streams": "Album Title Track",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 202,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "AMNESIA",
+		  "release_year": "2022",
+		  "artists": "TIF",
+		  "label": "Houma Sweet Houma",
+		  "sales_or_streams": "Hit Indé Rap FR/Maghreb",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 203,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Earth (Light It Up)",
+		  "release_year": "2023",
+		  "artists": "Tilden Parc",
+		  "label": "Indépendant",
+		  "sales_or_streams": "Viral Sync/Pub",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 204,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "MY EYES",
+		  "release_year": "2023",
+		  "artists": "Travis Scott",
+		  "label": "Cactus Jack / Epic",
+		  "sales_or_streams": "Album 'Utopia' (Top Streaming)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 205,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Eau Revoir",
+		  "release_year": "2016",
+		  "artists": "TripleGo",
+		  "label": "Twareg",
+		  "sales_or_streams": "Pionniers Cloud Rap FR",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 206,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "BB VEUT UN THUG",
+		  "release_year": "2019",
+		  "artists": "TripleGo",
+		  "label": "Twareg",
+		  "sales_or_streams": "Album 'Machakil'",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 207,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Victory (Orchestral)",
+		  "release_year": "2015",
+		  "artists": "Two Steps From Hell",
+		  "label": "Two Steps From Hell",
+		  "sales_or_streams": "Titre le plus connu (Battlecry)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 208,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Yeah!",
+		  "release_year": "2004",
+		  "artists": "Usher (feat. Lil Jon & Ludacris)",
+		  "label": "Arista",
+		  "sales_or_streams": "Classique R&B / Platine mondial",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 209,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Ma meilleure amie",
+		  "release_year": "2018",
+		  "artists": "Vald",
+		  "label": "Mezoued / Capitol",
+		  "sales_or_streams": "Album 'XEU' (Platine)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 210,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Jump",
+		  "release_year": "1984",
+		  "artists": "Van Halen",
+		  "label": "Warner Bros.",
+		  "sales_or_streams": "Hymne Rock / N°1 Billboard",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 211,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Sing 2 (Original Motion Picture Soundtrack)",
+		  "release_year": "2021",
+		  "artists": "Various Artists",
+		  "label": "Republic",
+		  "sales_or_streams": "Bande Originale de film",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 212,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Bécane",
+		  "release_year": "2023",
+		  "artists": "Yamê",
+		  "label": "Naïve / DBS",
+		  "sales_or_streams": "Révélation mondiale (Colors Show)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 213,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Beep Beep",
+		  "release_year": "2017",
+		  "artists": "Youthstar",
+		  "label": "Chinese Man Records",
+		  "sales_or_streams": "Scène D&B/Hip-Hop (Chinese Man)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 214,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Moves",
+		  "release_year": "2022",
+		  "artists": "Zach Diamond",
+		  "label": "Indépendant",
+		  "sales_or_streams": "Viral TikTok/Shorts",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 215,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Clarity",
+		  "release_year": "2012",
+		  "artists": "Zedd (feat. Foxes)",
+		  "label": "Interscope",
+		  "sales_or_streams": "Grammy Award / Platine",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  },
+	  {
+		"id": 216,
+		"type": "musiques",
+		"created_at": "2025-12-23T14:10:00Z",
+		"updated_at": "2025-12-23T14:10:00Z",
+		"data": {
+		  "title": "Bora Bora",
+		  "release_year": "2022",
+		  "artists": "Zequin",
+		  "label": "7 Corp / Capitol",
+		  "sales_or_streams": "Succès Rap FR (92)",
+		  "cover_url": "",
+		  "mbid": ""
+		}
+	  }
+    ]
+  }
+}
